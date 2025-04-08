@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({

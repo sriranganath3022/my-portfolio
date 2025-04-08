@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,6 +48,11 @@ const Navbar = () => {
               Projects
             </Link>
           </li>
+           <li className="nav-item">
+                      <Link to="/Certificates" className="nav-link" onClick={() => setIsOpen(false)}>
+                       Certificates
+                      </Link>
+                    </li>
           <li className="nav-item">
             <Link to="/skills" className="nav-link" onClick={() => setIsOpen(false)}>
               Skills
