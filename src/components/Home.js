@@ -8,7 +8,7 @@ const Home = () => {
       <div className="home-container">
         <div className="home-content">
           <h1>Hi, I'm <span className="highlight">Sriranganath</span></h1>
-          <h2>Full Stack Web Developer</h2>
+          <h2>Java Full Stack Web Developer</h2>
           <p>
             I build modern, responsive websites and applications with React, Node.js, and more.
             Passionate about creating intuitive user experiences and scalable backend solutions.
@@ -22,15 +22,13 @@ const Home = () => {
             </Link>
           </div>
           <div className="social-icons">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/sriranganath3022" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/sriranganath-murugesan-a38506246/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-twitter"></i>
-            </a>
+
           </div>
         </div>
         <div className="home-image">
